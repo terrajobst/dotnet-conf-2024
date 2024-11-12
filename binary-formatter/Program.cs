@@ -1,8 +1,4 @@
-﻿using System.Runtime.Serialization.Formatters.Binary;
-
-#pragma warning disable SYSLIB0011
-
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
@@ -10,16 +6,17 @@ internal class Program
             new OrderItem(new Product(2, "No Name Chocolate Bar"), 2, 1.85m),
             new OrderItem(new Product(3, "No Name Diet Pop "), 3, 2.90m),
         ]);
-        var bytes = Serialize(order);
-        var text = Convert.ToBase64String(bytes);
+        byte[] bytes = Serialize(order);
+        string text = Convert.ToBase64String(bytes);
         Console.WriteLine(text);
     }
 
     private static byte[] Serialize(object data)
     {
         using var stream = new MemoryStream();
-        var bf = new BinaryFormatter();
-        bf.Serialize(stream, data);
+
+        // TODO: Serialize
+
         return stream.ToArray();
     }
 }

@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alternate-lookup", "alternate-lookup\alternate-lookup.csproj", "{A9350847-3B31-4D70-9C75-13AC1972DCC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-alternate-lookup", "alternate-lookup\01-alternate-lookup.csproj", "{A9350847-3B31-4D70-9C75-13AC1972DCC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "debug-assert", "debug-assert\debug-assert.csproj", "{83534C5D-DB41-4A25-96F7-8CEAD239B4FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-debug-assert", "debug-assert\02-debug-assert.csproj", "{83534C5D-DB41-4A25-96F7-8CEAD239B4FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-when-each", "task-when-each\task-when-each.csproj", "{D495335B-0DA6-4DBA-9512-FF9E44C9EBAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-task-when-each", "task-when-each\04-task-when-each.csproj", "{D495335B-0DA6-4DBA-9512-FF9E44C9EBAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enumerable-index", "enumerable-index\enumerable-index.csproj", "{323955A5-7AF3-4051-92D7-793A299F7EBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-enumerable-index", "enumerable-index\03-enumerable-index.csproj", "{323955A5-7AF3-4051-92D7-793A299F7EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary-formatter", "binary-formatter\binary-formatter.csproj", "{38D0B248-6A0D-140D-3566-78EC2B8712D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-binary-formatter", "binary-formatter\06-binary-formatter.csproj", "{38D0B248-6A0D-140D-3566-78EC2B8712D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "json-schema", "json-schema\json-schema.csproj", "{0F534E1D-C10E-4C3B-AE4F-5F1A152759D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-json-schema", "json-schema\05-json-schema.csproj", "{0F534E1D-C10E-4C3B-AE4F-5F1A152759D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

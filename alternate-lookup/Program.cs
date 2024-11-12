@@ -9,8 +9,9 @@ public class Benchmarks
         int foundMatches = 0;
 
         HashSet<string> set = TestData.Names;
+        string[] lines = TestData.Lines;
 
-        foreach (string line in TestData.Lines)
+        foreach (string line in lines)
         {
             foreach (string name in line.Split(';'))
             {
@@ -27,7 +28,9 @@ public class Benchmarks
     {
         int foundMatches = 0;
 
+        #region The Trick
         HashSet<string>.AlternateLookup<ReadOnlySpan<char>> set = TestData.Names.GetAlternateLookup<ReadOnlySpan<char>>();
+        #endregion
 
         foreach (string line in TestData.Lines)
         {

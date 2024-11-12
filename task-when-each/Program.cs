@@ -13,9 +13,9 @@ internal class Program
         var stopwatch = Stopwatch.StartNew();
 
         var tasks = new[] { t1, t2, t3 };
-        //await Task.WhenAll(tasks);
+        await Task.WhenAll(tasks);
 
-        await foreach (var task in Task.WhenEach(tasks))
+        foreach (var task in tasks)
             Console.WriteLine($"[{stopwatch.Elapsed}] Task {task.Result} is finished.");
     }
 
