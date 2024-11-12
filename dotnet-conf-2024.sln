@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enumerable-index", "enumera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary-formatter", "binary-formatter\binary-formatter.csproj", "{38D0B248-6A0D-140D-3566-78EC2B8712D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "json-schema", "json-schema\json-schema.csproj", "{0F534E1D-C10E-4C3B-AE4F-5F1A152759D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{38D0B248-6A0D-140D-3566-78EC2B8712D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D0B248-6A0D-140D-3566-78EC2B8712D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D0B248-6A0D-140D-3566-78EC2B8712D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F534E1D-C10E-4C3B-AE4F-5F1A152759D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F534E1D-C10E-4C3B-AE4F-5F1A152759D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F534E1D-C10E-4C3B-AE4F-5F1A152759D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F534E1D-C10E-4C3B-AE4F-5F1A152759D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
